@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f7a69ac530.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="mplayer">
+      <div class="nav divs">
+        <div class="volume btn">
+            <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div class="volume-bar-container">
+            <div class="volume-bar"></div>
+          </div>
+        <div class="menu">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+          <div class="list">List Of Songs</div>
+          <div class="songsname"></div>
+        </div>
+      </div>
+      <div class="img divs">
+        <div class="subimg"></div>
+      </div>
+      <div class="info divs">
+        <div class="songname"></div>
+        <div class="singername"></div>
+      </div>
+      <div class="progress divs">
+        <div class="timecontainer">
+          <span class="elapsedtime"></span> <span class="remainingtime"></span>
+        </div>
+        <div class="progress-bar-container">
+          <div class="progress-bar">
+          </div>
+        </div>
+        <audio>
+          <!-- <source src="../songs/Bad_Liar.mp3" type="audio/ogg"> -->
+        </audio>
+      </div>
+      <div class="controls divs">
+        <div class="backward btn">
+          <i class="fa-solid fa-backward-fast"></i>
+        </div>
+        <div class="play btn"><i class="fa-solid fa-play"></i></div>
+        <div class="forward btn"><i class="fa-solid fa-forward-fast"></i></div>
+      </div>
+    </div>
+  </body>
+</html>
